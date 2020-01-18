@@ -1,9 +1,9 @@
 # Site settings
 title: DKG 2021
 email: kontakt@dkg2021.de
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+description: Der 62. Deutsche Kongress für Geographie findet vom 29. September bis zum 2. Oktober 2021 in Frankfurt am Main statt. 
+baseurl: "" 
+url: "https://dkg2021.de"
 
 twitter_username: dkg2021
 
