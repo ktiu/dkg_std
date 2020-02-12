@@ -302,6 +302,12 @@ header {
     @include button-variant(white, $theme-primary, $theme-primary);
 }
 
+.event {
+  @include sans-serif-font;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .btn {
     @include sans-serif-font;
     border: none;
