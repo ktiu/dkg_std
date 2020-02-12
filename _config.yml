@@ -5,7 +5,7 @@ description: Der 62. Deutsche Kongress für Geographie findet vom 29. September 
 baseurl: "" 
 url: "https://dkg2021.de"
 
-twitter_username: dkg2021
+twitter_username: "@dkg2021"
 
 # Build settings
 markdown: kramdown
