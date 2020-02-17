@@ -140,6 +140,7 @@
     }
 
     ul.timeline > li > .timeline-panel {
+        color: $dark;
         text-align: left;
         width: calc(100% - 90px);
         width: -moz-calc(100% - 90px);
