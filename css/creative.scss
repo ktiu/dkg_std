@@ -1,0 +1,17 @@
+---
+---
+
+// Import custom variables (overrides Bootstrap default variables)
+
+@import "./palette.scss";
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "./vendor/bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./global.scss";
+@import "./navbar.scss";
+@import "./masthead.scss";
+@import "./portfolio.scss";
+@import "./timeline.scss";
