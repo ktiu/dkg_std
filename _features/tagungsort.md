@@ -1,6 +1,6 @@
 ---
 title: Der Tagungsort
-img: true
+img: HZ.jpg
 img_credit: "Foto: Peter Kiefer, Goethe-Universität Frankfurt"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Der 62. Deutsche Kongress für Geographie
-alt: true
 ---
 
 Nach 1883 und 1951 findet 2021 bereits zum dritten Mal der Deutsche Kongress für Geographie in Frankfurt statt.

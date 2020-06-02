@@ -26,9 +26,9 @@ title: Deutscher Kongress für Geographie
     <div class="container-lg">
       <div class="row justify-content-center">
   {% if feature.img %}
-        <div class="col-12 col-md-6 hz-bg">
+        <div class="col-12 col-md-6 img-div" style="background: url(/img/{{ feature.img }}) no-repeat center center;">
     {% if feature.img_credit %}
-          <div class="photo-credit">Foto: Peter Kiefer, Goethe-Universität Frankfurt</div>
+          <div class="photo-credit">{{ feature.img_credit }}</div>
     {% endif %}
         </div>
         <div class="col-12 col-md-6 p-5 text-center">
