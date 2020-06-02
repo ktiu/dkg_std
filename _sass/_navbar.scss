@@ -28,22 +28,24 @@
     }
   }
   @include media-breakpoint-up(lg) {
-    // Base styling for the navbar - screen sizes greater than the large breakpoint
     box-shadow: none;
-    background-color: transparent;
+    background: linear-gradient(to bottom, #{fade-out($color1, .7)} 0%, #{fade-out($color1, .8)} 50%,#{fade-out($color1, 1)} 100%);
+    text-shadow: 0 0 14px fade-out($color1, .6);
     .navbar-brand {
-      color: fade-out($light, .3);
+      color: fade-out($light, .1);
       &:hover {
-        color: $light;
+        color: $white;
+        text-shadow: none;
       }
     }
     .navbar-nav {
       .nav-item {
         .nav-link {
-          color: fade-out($light, .3);
+          color: fade-out($light, .1);
           padding: 0 1rem;
           &:hover {
             color: $white;
+            text-shadow: none;
           }
         }
         &:last-child {
@@ -56,6 +58,8 @@
     // Navbar styling applied when the page is scrolled
     &.navbar-scrolled {
       box-shadow: $box-shadow;
+      text-shadow: none;
+      background: none;
       background-color: $light;
       .navbar-brand {
         color: $dark;

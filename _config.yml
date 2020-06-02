@@ -1,0 +1,16 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
+title: Deutscher Kongress für Geographie 2021 in Frankfurt am Main
+description: 
+sitename: DKG 2021
+collections:
+  features:
+    order:
+      - kongress.md
+      - tagungsort.md
+      - termine.html
+      - kontakt.html

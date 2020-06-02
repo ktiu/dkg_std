@@ -7,11 +7,11 @@ $light: $color4;
 
 // Font overrides
 
-@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:wght@400;600;700|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');
 
 $font-family-sans-serif: "Source Sans Pro", "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
-$font-family-serif: "PT Serif", serif, !default;
+$font-family-serif: "Source Serif Pro", serif, !default;
 
 $font-family-base: $font-family-serif !default;
 

@@ -1,0 +1,39 @@
+---
+title: Voraussichtlicher Zeitplan
+alt: true
+items:
+  - heading: Call for Sessions
+    icon:    clipboard
+    body:    Oktober – Dezember 2029
+  - heading: Call for Papers
+    body:    Januar – März 2021
+    icon:    paper-plane
+  - heading: Early-bird registration
+    body:    April – Juli 2021
+    icon:    kiwi-bird
+  - heading: Vorläufiges Programm
+    body:    Juli 2021
+    icon:    book-open
+  - heading: Tagung in Frankfurt
+    body:    29.&nbsp;September – 2.&nbsp;Oktober&nbsp;2021
+    icon:    door-open
+
+---
+
+      <ul class="timeline">
+        {% for item in page.items %}
+        <li{% cycle '', ' class="timeline-inverted"' %}>
+          <div class="timeline-badge"><i class="fas fa-{{ item.icon }}"></i></div>
+          <div class="timeline-panel text-dark">
+            <div class="timeline-panel-inner">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">{{ item.heading }}</h4>
+              </div>
+              <div class="timeline-body">
+                <p>{{ item.body }}</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
