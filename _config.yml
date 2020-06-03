@@ -10,6 +10,7 @@ sitename: DKG 2021
 collections:
   features:
     order:
+      - covid-19.md
       - kongress.md
       - tagungsort.md
       - termine.html
