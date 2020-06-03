@@ -2413,6 +2413,8 @@ h2 { font-weight: 300; font-size: 3rem; }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus { color: #fff; background-color: #ff6b6b; border: none; }
 
+.btn-light:hover, .btn-light:active, .btn-light:focus { color: #ff6b6b; background-color: #f7fff7; border: none; }
+
 .page-section { padding: 8rem 0; }
 
 .img-div { min-height: 60vh !important; background-size: cover; }

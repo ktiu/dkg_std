@@ -23,7 +23,7 @@ title: Deutscher Kongress für Geographie
   </header>
 
 {% for feature in site.features %} 
-  <section class="{% cycle 'bg-secondary text-light', 'bg-light' %}" id="{{ feature.slug }}">
+  <section class="{% cycle 'bg-light','bg-secondary text-light'%}" id="{{ feature.slug }}">
     <div class="container-lg">
       <div class="row justify-content-center">
   {% if feature.img %}

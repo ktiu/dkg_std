@@ -49,6 +49,12 @@ h2 {
   border: none;
 }
 
+.btn-light:hover, .btn-light:active, .btn-light:focus {
+  color: $primary; 
+  background-color: $light  ;
+  border: none;
+}
+
 // Page section padding
 .page-section {
   padding: 8rem 0;
