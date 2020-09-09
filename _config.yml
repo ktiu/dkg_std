@@ -4,13 +4,13 @@ exclude:
   - README.md
   - LICENSE.txt
   - CNAME
-title: Deutscher Kongress für Geographie 2021 in Frankfurt am Main
+title: Deutscher Kongress für Geographie 2023 in Frankfurt am Main
 description: 
-sitename: DKG 2021
+name: DKG 2023
 collections:
   features:
     order:
-      - covid-19.md
+      - aktuelles.md
       - kongress.md
       - tagungsort.md
       - termine.html
